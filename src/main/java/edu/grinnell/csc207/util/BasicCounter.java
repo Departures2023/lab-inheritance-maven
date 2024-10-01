@@ -9,7 +9,7 @@ public class BasicCounter implements Counter{
     this.start = i;
   }
 
-  public void increment() {
+  public void increment() throws Exception{
     this.count++;
   }
 
