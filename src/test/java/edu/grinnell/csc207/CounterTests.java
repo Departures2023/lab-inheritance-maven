@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import edu.grinnell.csc207.util.BasicCounter;
 import edu.grinnell.csc207.util.Counter;
 import edu.grinnell.csc207.util.DecrementableCounter;
-import edu.grinnell.csc207.util.Tally;
+import edu.grinnell.csc207.util.NamedCounter;
 
 /**
  * Tests of our counter class.
@@ -21,7 +21,7 @@ public class CounterTests {
    */
   @Test
   public void test1() throws Exception {
-    Counter alpha = new Tally();
+    Counter alpha = new NamedCounter("alfa", 0);
     Counter beta = new BasicCounter(123);
     DecrementableCounter gamma = new DecrementableCounter(-5);
     assertEquals(0, alpha.get(), "original alpha");
