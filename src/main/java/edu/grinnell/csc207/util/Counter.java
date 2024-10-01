@@ -23,5 +23,7 @@ public interface Counter {
    * @return the current value of the counter
    */
   public int get();
+  
+  public void decrement();
 } // interface Counter
 

@@ -24,4 +24,8 @@ public class BasicCounter implements Counter{
   public int get() {
     return this.count;
   }
+
+  public void decrement() {
+    this.count--;
+  }
 }
