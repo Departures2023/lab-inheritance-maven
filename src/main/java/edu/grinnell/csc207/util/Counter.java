@@ -24,3 +24,4 @@ public interface Counter {
    */
   public int get();
 } // interface Counter
+
